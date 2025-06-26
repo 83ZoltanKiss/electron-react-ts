@@ -1,6 +1,5 @@
-import { createRoot } from 'react-dom/client';
+import { Title } from "./components/title";
 
-const rootElement = document.getElementById('app');
-
-const root = createRoot(rootElement);
-root.render(<h2>Hello from React! xx</h2>);
+export const App = () => {
+    return <Title text="Hello from React !"/>
+}
