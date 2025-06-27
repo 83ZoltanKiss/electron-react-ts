@@ -1,5 +1,5 @@
-import { Title } from "./components/title";
+import { Title } from "./components";
 
 export const App = () => {
-    return <Title text="Hello from React !"/>
+    return <Title tag='h1' text="Hello from Electron x React !"/>
 }

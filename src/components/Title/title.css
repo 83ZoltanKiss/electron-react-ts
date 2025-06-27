@@ -1,0 +1,16 @@
+.primary {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    &::before {
+        content: ' ';
+        display: inline-block;
+        width: 2rem;
+        height: 5rem;
+        background-color:aquamarine;
+    }
+}
+
+.secondary {
+}
